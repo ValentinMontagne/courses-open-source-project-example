@@ -1,0 +1,24 @@
+{
+  "name": "alert-vanilla",
+  "version": "0.0.1",
+  "description": "Framework-agnostic alert library in pure javascript and css.",
+  "files": [
+    "dist"
+  ],
+  "main": "./dist/alert-vanilla.umd.js",
+  "module": "./dist/alert-vanilla.mjs",
+  "exports": {
+    ".": {
+      "import": "./dist/alert-vanilla.mjs",
+      "require": "./dist/alert-vanilla.umd.js"
+    }
+  },
+  "scripts": {
+    "build": "vite build"
+  },
+  "devDependencies": {
+    "vite": "^4.5.0",
+    "vite-plugin-css-injected-by-js": "^3.3.0"
+  },
+  "dependencies": {}
+}
