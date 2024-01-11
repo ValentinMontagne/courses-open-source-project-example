@@ -3,7 +3,6 @@ export function count(state: number): number {
 }
 
 export function setupCounter(element: HTMLButtonElement): void {
-  var toto;
   let counter = 0;
 
   const setCounter = (count: number): void => {
